@@ -6,6 +6,7 @@ import { PiesListComponent }  from './pies-list.component';
 import { TaskListComponent } from './task-list.component';
 import { EditTaskComponent } from './edit-task.component';
 import { NewTaskComponent } from './new-task.component';
+import { CompletenessPipe } from './completeness.pipe';
 
 @NgModule({
   imports: [BrowserModule, FormsModule],
@@ -14,7 +15,8 @@ import { NewTaskComponent } from './new-task.component';
     PiesListComponent,
     TaskListComponent,
     EditTaskComponent,
-    NewTaskComponent
+    NewTaskComponent,
+    CompletenessPipe,
   ],
   bootstrap:    [ AppComponent ]
 })

@@ -6,7 +6,6 @@ import { Task} from './task.model';
   template: `
   <div class="container">
     <h1>To-do</h1>
-    <pies></pies>
     <task-list
       [childTaskList]="masterTaskList"
       (clickSender)="showDetails($event)"
